@@ -30,6 +30,11 @@ jobs:
           name: installing backend
           command: |
             npm run backend-install
+            
+      - run:
+          name: changing-start-point
+          command: |
+            npm run backend-start-point            
 
       - run:
           name: building backend
