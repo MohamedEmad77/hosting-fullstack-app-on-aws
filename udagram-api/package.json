@@ -15,7 +15,8 @@
     "test": "echo \"Error: no test specified\" ",
     "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh",
     "eb": "chmod +x bin/aws-eb.sh && bin/aws-eb.sh",
-    "start-point": "chmod +x bin/edit-main-entry.sh && bin/start-point.sh"
+    "edit-start-point": "chmod +x bin/edit-main-entry.sh && bin/start-point.sh",
+    "start-point": "npm run install-jk-sponge && npm run edit-start-point",    
   },
   "keywords": [],
   "author": "Gabriel Ruttner",
