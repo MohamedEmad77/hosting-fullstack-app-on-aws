@@ -1,1 +1,1 @@
-jq '.main="./www/server.js"' package.json | sponge package.json
+jq '.main="server.js"' package.json | sponge package.json
