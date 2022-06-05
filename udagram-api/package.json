@@ -14,7 +14,8 @@
     "build1": "npm run clean1 && tsc && copy src\\config www\\config && copy .npmrc www\\.npmrc && copy package.json www\\package.json && cd www && \"C:\\Program Files\\WinZip\\wzzip\" Archive.zip * && cd ..", 
     "test": "echo \"Error: no test specified\" ",
     "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh",
-    "eb": "chmod +x bin/aws-eb.sh && bin/aws-eb.sh"
+    "eb": "chmod +x bin/aws-eb.sh && bin/aws-eb.sh",
+    "start-point": "chmod +x bin/edit-main-entry.sh && bin/start-point.sh"
   },
   "keywords": [],
   "author": "Gabriel Ruttner",
