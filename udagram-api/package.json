@@ -17,7 +17,7 @@
     "eb": "chmod +x bin/aws-eb.sh && bin/aws-eb.sh",
     "edit-start-point": "chmod +x bin/start-point.sh && bin/start-point.sh",
     "start-point": "npm run jk-sponge && npm run edit-start-point",
-    "jk-sponge": "chmod +x bin/jk-sponge.sh && bin/jk-sponge.sh",    
+    "jk-sponge": "chmod +x bin/jk-sponge.sh && bin/jk-sponge.sh"   
   },
   "keywords": [],
   "author": "Gabriel Ruttner",
