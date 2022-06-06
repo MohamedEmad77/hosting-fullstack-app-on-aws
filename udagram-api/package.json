@@ -10,7 +10,7 @@
     "prod": "tsc && node ./www/server.js",
     "clean": "rm -rf www/ || true",
     "clean1": "del www",
-    "build": "npm install . && npm run clean && tsc && cp -rf src/config www/config && cp -R .elasticbeanstalk www/.elasticbeanstalk && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip . && cd ..",
+    "build": "npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip . && cd ..",
     "build1": "npm run clean1 && tsc && copy src\\config www\\config && copy .npmrc www\\.npmrc && copy package.json www\\package.json && cd www && \"C:\\Program Files\\WinZip\\wzzip\" Archive.zip * && cd ..", 
     "test": "echo \"Error: no test specified\" ",
     "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh",
