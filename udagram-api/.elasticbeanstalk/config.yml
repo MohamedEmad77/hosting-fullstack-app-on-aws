@@ -1,4 +1,3 @@
-
 deploy:
   artifact: ./www/Archive.zip
 
