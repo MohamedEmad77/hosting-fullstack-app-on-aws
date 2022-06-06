@@ -1,10 +1,10 @@
 
 {
     "scripts": {
-        "frontend-install": "cd udagram-frontend && npm install --force",
+        "frontend-install": "cd udagram-frontend && npm install -g --force",
         "frontend-build": "cd udagram-frontend && npm run build",
         "frontend-deploy": "cd udagram-frontend && npm run deploy",
-        "backend-install": "cd udagram-api && npm install",
+        "backend-install": "cd udagram-api && npm install -g",
         "backend-build": "cd udagram-api && npm run build",
         "eb-install": "cd udagram-api && npm run eb",
         "backend-deploy": "cd udagram-api && npm run deploy",
