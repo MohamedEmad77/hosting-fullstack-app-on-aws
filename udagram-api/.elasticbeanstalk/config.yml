@@ -2,7 +2,6 @@
 deploy:
   artifact: ./www/Archive.zip
 
-
 branch-defaults:
   default:
     environment: mohamedemad-api-dev
